@@ -5,8 +5,8 @@ const fun = async (urls = [], parentBranch, childBranch) => {
     try {
         let x = Math.random()
         for (let url of urls) {
-            await git.init();
-            await git.addRemote(`origin`, url);
+            // await git.init();
+            // await git.addRemote(`origin`, url);
             //await git.pull('origin','main')
             //await git.checkout(['main'])
             // await git.checkout(['-b', `${parentBranch}`])
